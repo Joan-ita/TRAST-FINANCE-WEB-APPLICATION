@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>TRAST FINANCE</title>
+    <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class ="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li><br>
+                    <li><a href="login.html">LOGIN/ SIGNUP</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1>About Us</h1>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We Are The Largest Financial Services</h1>
+                <p>We offer all kinds of loans say business, agriculture, education loans to people anytime anywhere at very affordable interest rates.<br> The loans are awatrded directly to your mobile money accounts, bank accounts or in cash</p>
+                <a href="" class="hero-btn red btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+            <img src="images/master.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+   
+
+    <!--comments-->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are located along Bombo Road, Master plaza building opposite Watoto church Kampala Uganda</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart"></i> by WoJeDesigns</p>
+    </section>
+    <!--Javasript code for toggling menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
