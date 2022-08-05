@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>TRAST FINANCE | Services</title>
+    <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class ="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li><br>
+                    <li><a href="login.html">LOGIN/ SIGNUP</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1>Services Offered</h1>
+    </section>
+
+    <section class="services">
+        <center><h3>Request For Service</h3></center>
+        <div class="row">
+            <div class="service-col">
+                <center><a href="loan.html">LOANS</a></center>
+                <p><i class="fa fa-money"></i></p>
+                <p>Businessloans, Agriculture loans, Motor loans, Education loans</p>
+            </div>
+            <div class="service-col">
+                <center><a href="analysis.html">DATA ANALYSIS</a></center>
+                <p><i class="fa fa-area-chart"></i></p>
+                <p>We clean, change, and process raw data, and extract actionable, relevant information for you</p>
+            </div>
+            <div class="service-col">
+                <center><a href="research.html">RESEARCH</a></center>
+                <p><i class="fa fa-book"></i></p>
+                <p>We do systematic investigation into and study of materials and sources in order to establish facts and reach new conclusions.</p>
+            </div>
+        </div>
+    </section>
+   
+
+    <!--comments-->
+
+    <section class="footer">
+        <h4>Location</h4>
+        <p>We are located along Bombo Road, Master plaza building opposite Watoto church Kampala Uganda</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart"></i> by WoJeDesigns</p>
+    </section>
+    <!--Javasript code for toggling menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
